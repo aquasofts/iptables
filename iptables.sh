@@ -33,4 +33,4 @@ echo "iptables 规则已成功添加。"
 
 # 保存新的iptables规则
 sudo iptables-save | sudo tee /etc/iptables/rules.v4 > /dev/null
-echo "新iptables规则已成功保存。"
+echo "新iptables规则已成功保存。（重启生效）"
